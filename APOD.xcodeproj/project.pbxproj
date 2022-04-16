@@ -12,6 +12,7 @@
 		EB62C8A3280B2717003FCE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB62C8A2280B2717003FCE00 /* Assets.xcassets */; };
 		EB62C8A6280B2717003FCE00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB62C8A5280B2717003FCE00 /* Preview Assets.xcassets */; };
 		EB62C8AD280B29C4003FCE00 /* APODModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB62C8AC280B29C4003FCE00 /* APODModel.swift */; };
+		EB62C8B2280B3E3E003FCE00 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB62C8B1280B3E3E003FCE00 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		EB62C8A2280B2717003FCE00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB62C8A5280B2717003FCE00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB62C8AC280B29C4003FCE00 /* APODModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODModel.swift; sourceTree = "<group>"; };
+		EB62C8B1280B3E3E003FCE00 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,10 @@
 		EB62C89D280B2715003FCE00 /* APOD */ = {
 			isa = PBXGroup;
 			children = (
+				EB62C8B0280B3E23003FCE00 /* ViewModel */,
+				EB62C8AF280B3E1C003FCE00 /* View */,
+				EB62C8AE280B3E17003FCE00 /* Model */,
 				EB62C89E280B2715003FCE00 /* APODApp.swift */,
-				EB62C8AC280B29C4003FCE00 /* APODModel.swift */,
-				EB62C8A0280B2715003FCE00 /* ContentView.swift */,
 				EB62C8A2280B2717003FCE00 /* Assets.xcassets */,
 				EB62C8A4280B2717003FCE00 /* Preview Content */,
 			);
@@ -68,6 +71,30 @@
 				EB62C8A5280B2717003FCE00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB62C8AE280B3E17003FCE00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB62C8AC280B29C4003FCE00 /* APODModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB62C8AF280B3E1C003FCE00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB62C8A0280B2715003FCE00 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB62C8B0280B3E23003FCE00 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EB62C8B1280B3E3E003FCE00 /* ContentModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB62C8A1280B2715003FCE00 /* ContentView.swift in Sources */,
+				EB62C8B2280B3E3E003FCE00 /* ContentModel.swift in Sources */,
 				EB62C89F280B2715003FCE00 /* APODApp.swift in Sources */,
 				EB62C8AD280B29C4003FCE00 /* APODModel.swift in Sources */,
 			);

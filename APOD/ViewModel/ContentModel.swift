@@ -11,7 +11,7 @@ class ContentViewModel: ObservableObject {
     @Published var astroResult = [APODModel]()
 
     func loadData() {
-        let urlString = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=1"
+        let urlString = "https://api.nasa.gov/planetary/apod?api_key=\(APODKey.APIKey)&count=1"
         
         let url = URL(string: urlString)!
                 

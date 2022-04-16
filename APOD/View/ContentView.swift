@@ -67,6 +67,9 @@ extension ContentView {
                 .opacity(0.1)
         }
         .padding(.top, 20)
+        .onTapGesture(count: 2, perform: {
+            contentModel.loadData()
+        })
     }
     
     @ViewBuilder
